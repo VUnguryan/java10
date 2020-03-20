@@ -4,6 +4,9 @@ import java.util.Date;
 
 public class Player {
 	private String name;
+	private int age;
+	private String sureName;
+	private String about;
 	private String description;
 	private Date created;
 	private String balance;
