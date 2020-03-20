@@ -3,7 +3,11 @@ package ua.step.java10;
 import java.util.Date;
 
 public class Player {
+<<<<<<< HEAD
 	private String vunguryan;
+=======
+	private String le;
+>>>>>>> branch 'master' of https://github.com/VUnguryan/java10.git
 	private String name;
 	private String description;
 	private Date created;
