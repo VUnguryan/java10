@@ -9,7 +9,6 @@ public class Player {
 	private String balance;
 
 	public Player(String name, Date registration) {
-		super();
 		this.name = name;
 		this.created = registration;
 	}
