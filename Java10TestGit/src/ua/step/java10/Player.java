@@ -5,12 +5,12 @@ import java.util.Date;
 public class Player {
 	private String name;
 	private String description;
-	private Date registration1;
+	private Date created;
 
 	public Player(String name, Date registration) {
 		super();
 		this.name = name;
-		this.registration1 = registration;
+		this.created = registration;
 	}
 
 	public String getName() {
@@ -18,7 +18,7 @@ public class Player {
 	}
 
 	public Date getRegistration() {
-		return registration1;
+		return created;
 	}
 
 	public String getDescription() {
