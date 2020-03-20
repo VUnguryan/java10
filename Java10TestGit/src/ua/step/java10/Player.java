@@ -6,7 +6,7 @@ public class Player {
 	private String name;
 	private String description;
 	private Date created;
-	private String balance;
+	private int balance;
 
 	public Player(String name, Date registration) {
 		this.name = name;
@@ -29,11 +29,11 @@ public class Player {
 		this.description = description;
 	}
 
-	public String getBalance() {
+	public int getBalance() {
 		return balance;
 	}
 
-	public void setBalance(String balance) {
+	public void setBalance(int balance) {
 		this.balance = balance;
 	}
 	
