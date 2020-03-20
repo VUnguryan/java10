@@ -20,6 +20,12 @@ public class Player {
 		return name;
 	}
 	
+	public String getAge() {
+		return age;
+	}
+	public String getAbout() {
+		return about;
+	}
 	public String getSureName() {
 		return surName;
 	}
