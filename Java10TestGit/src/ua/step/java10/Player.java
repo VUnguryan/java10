@@ -29,4 +29,13 @@ public class Player {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+
+	public String getBalance() {
+		return balance;
+	}
+
+	public void setBalance(String balance) {
+		this.balance = balance;
+	}
+	
 }
