@@ -3,6 +3,7 @@ package ua.step.java10;
 import java.util.Date;
 
 public class Player {
+	private String vunguryan;
 	private String name;
 	private String description;
 	private Date created;
