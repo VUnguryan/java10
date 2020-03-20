@@ -8,7 +8,6 @@ public class Player {
 	private Date registration1;
 
 	public Player(String name, Date registration) {
-		super();
 		this.name = name;
 		this.registration1 = registration;
 	}
