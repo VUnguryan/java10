@@ -15,9 +15,13 @@ public class Player {
 		this.name = name;
 		this.created = registration;
 	}
-
+	
 	public String getName() {
 		return name;
+	}
+	
+	public String getSureName() {
+		return surName;
 	}
 
 	public Date getRegistration() {
