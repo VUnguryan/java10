@@ -7,6 +7,7 @@ public class Player {
 	private String description;
 	private Date created;
 	private String balance;
+	private int count;
 
 	public Player(String name, Date registration) {
 		this.name = name;
