@@ -6,6 +6,7 @@ public class Player {
 	private String name;
 	private String description;
 	private Date created;
+	private String balance;
 
 	public Player(String name, Date registration) {
 		super();
